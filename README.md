@@ -22,8 +22,8 @@ All parameters are time values specified in seconds, with the exception of the l
 
 | Parameter           | Description                                                                        | Blink metaphor                               | Default |
 | ------------------- | ---------------------------------------------------------------------------------- | -------------------------------------------- | ------- |
-| Screen off time     | How long the screen should be black after fading out and before fading in          | The length of the blink                      | `1`     |
-| Screen on time      | How long the screen should be on before fading again                               | How long the eyes are open in between blinks | `60`    |
+| Screen on time      | How long the screen should be on between fades                                     | How long the eyes are open in between blinks | `60`    |
+| Screen off time     | How long the screen should be black after fading out and before fading in          | How long the eyes are closed while blinking  | `1`     |
 | Fade out transition | How long the screen should take to fade to black                                   | How long the eyelids take to close           | `2`     |
 | Fade in transition  | How long the screen should take to fade back in                                    | How long the eyelids take to open            | `1`     |
 | Fade out opacity    | How black the screen should fade (0 is pitch black, 100 is as if nothing happened) | How far the eyelids close (0 is closed)      | `0`     |

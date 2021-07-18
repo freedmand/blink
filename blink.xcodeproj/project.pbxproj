@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7698288026A4722400575782 /* blink.IconSet in Resources */ = {isa = PBXBuildFile; fileRef = 7698287F26A4722400575782 /* blink.IconSet */; };
 		76BFD3E8269A974900FB3FE6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76BFD3E7269A974900FB3FE6 /* AppDelegate.swift */; };
 		76BFD3EA269A974900FB3FE6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76BFD3E9269A974900FB3FE6 /* ViewController.swift */; };
 		76BFD3EC269A974900FB3FE6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76BFD3EB269A974900FB3FE6 /* Assets.xcassets */; };
@@ -14,7 +15,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		76BFD3E4269A974900FB3FE6 /* blink.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = blink.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7698287F26A4722400575782 /* blink.IconSet */ = {isa = PBXFileReference; lastKnownFileType = folder.iconset; path = blink.IconSet; sourceTree = "<group>"; };
+		76BFD3E4269A974900FB3FE6 /* Blink.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Blink.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		76BFD3E7269A974900FB3FE6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		76BFD3E9269A974900FB3FE6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		76BFD3EB269A974900FB3FE6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -45,7 +47,7 @@
 		76BFD3E5269A974900FB3FE6 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				76BFD3E4269A974900FB3FE6 /* blink.app */,
+				76BFD3E4269A974900FB3FE6 /* Blink.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -53,6 +55,7 @@
 		76BFD3E6269A974900FB3FE6 /* blink */ = {
 			isa = PBXGroup;
 			children = (
+				7698287F26A4722400575782 /* blink.IconSet */,
 				76BFD3E7269A974900FB3FE6 /* AppDelegate.swift */,
 				76BFD3E9269A974900FB3FE6 /* ViewController.swift */,
 				76BFD3EB269A974900FB3FE6 /* Assets.xcassets */,
@@ -66,9 +69,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		76BFD3E3269A974900FB3FE6 /* blink */ = {
+		76BFD3E3269A974900FB3FE6 /* Blink */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 76BFD3F4269A974900FB3FE6 /* Build configuration list for PBXNativeTarget "blink" */;
+			buildConfigurationList = 76BFD3F4269A974900FB3FE6 /* Build configuration list for PBXNativeTarget "Blink" */;
 			buildPhases = (
 				76BFD3E0269A974900FB3FE6 /* Sources */,
 				76BFD3E1269A974900FB3FE6 /* Frameworks */,
@@ -78,9 +81,9 @@
 			);
 			dependencies = (
 			);
-			name = blink;
+			name = Blink;
 			productName = blink;
-			productReference = 76BFD3E4269A974900FB3FE6 /* blink.app */;
+			productReference = 76BFD3E4269A974900FB3FE6 /* Blink.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -110,7 +113,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				76BFD3E3269A974900FB3FE6 /* blink */,
+				76BFD3E3269A974900FB3FE6 /* Blink */,
 			);
 		};
 /* End PBXProject section */
@@ -122,6 +125,7 @@
 			files = (
 				76BFD3EC269A974900FB3FE6 /* Assets.xcassets in Resources */,
 				76BFD3EF269A974900FB3FE6 /* Main.storyboard in Resources */,
+				7698288026A4722400575782 /* blink.IconSet in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,6 +285,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.dfreed.blink;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -302,6 +307,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.dfreed.blink;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -320,7 +326,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		76BFD3F4269A974900FB3FE6 /* Build configuration list for PBXNativeTarget "blink" */ = {
+		76BFD3F4269A974900FB3FE6 /* Build configuration list for PBXNativeTarget "Blink" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				76BFD3F5269A974900FB3FE6 /* Debug */,

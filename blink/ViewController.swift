@@ -31,8 +31,8 @@ class ViewController: NSViewController, NSTextFieldDelegate {
     lazy var params = defaults.object(forKey: "params") as? [String: Double] ?? [
         "outDuration": 2.0,
         "inDuration": 1.0,
-        "sleepDuration": 60.0,
-        "awakeDuration": 1.0,
+        "sleepDuration": 1.0,
+        "awakeDuration": 60.0,
         "fullFade": 1.0,
     ]
     
