@@ -2,7 +2,9 @@
 
 A Mac OS X application to encourage blinking by fading the screen to black at configurable intervals.
 
-![Screenshot of the Blink app](./readme/blink.jpg)
+<div>
+  <img title="Screenshot of the Blink app" src="./readme/blink.jpg" width="450" >
+</div>
 
 ## Download
 
